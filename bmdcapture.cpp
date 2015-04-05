@@ -762,7 +762,7 @@ int main(int argc, char *argv[])
 
     if (serial_fd > 0 && wallclock) {
         fprintf(stderr,
-                "Wallclock and serial are not supported together\n",
+                "Wallclock and serial are not supported together\n"
                 "Please disable either\n");
         exit(1);
     }
